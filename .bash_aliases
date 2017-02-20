@@ -1,7 +1,7 @@
 alias md='mkdir'
 alias ..='cd ..'
 alias h='history | grep '
-alias ll='ls -lh --color=no'
+alias ll='ls -lh --color=auto'
 alias cpr='rsync -rh --progress'
 
 alias gl='git log --graph --full-history --all --color --date=short --pretty=format:"%Cred%x09%h %Creset%ad%Cblue%d %Creset %s %C(bold)(%an)%Creset"'
