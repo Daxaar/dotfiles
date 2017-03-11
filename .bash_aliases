@@ -6,6 +6,7 @@ alias cpr='rsync -rh --progress'
 
 alias gl='git log --graph --full-history --all --color --date=short --pretty=format:"%Cred%x09%h %Creset%ad%Cblue%d %Creset %s %C(bold)(%an)%Creset"'
 alias glo='git log --oneline'
+alias glot='git log --oneline -n 10'
 alias gs='git status'
 alias gss='git status -s'
 alias gc='git checkout'
