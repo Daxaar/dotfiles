@@ -11,5 +11,6 @@ alias gs='git status'
 alias gss='git status -s'
 alias gc='git checkout'
 alias co='git checkout'
+alias grc='git rebase --continue'
 
 #TODO: Bring in the rest from too many different servers to think about ¯\_(ツ)_/¯
