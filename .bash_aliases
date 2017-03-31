@@ -9,8 +9,9 @@ alias glo='git log --oneline'
 alias glot='git log --oneline -n 10'
 alias gs='git status'
 alias gss='git status -s'
-alias gc='git checkout'
-alias co='git checkout'
+alias gc='git commit'
+alias ga='git add'
+alias gco='git checkout'
 alias grc='git rebase --continue'
 
 #TODO: Bring in the rest from too many different servers to think about ¯\_(ツ)_/¯
