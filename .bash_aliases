@@ -15,4 +15,10 @@ alias grc='git rebase --continue'
 alias grhh='git reset head --hard'
 alias ghrs='git reset head --soft'
 
+#Get the sha for the commit a file was deleted in
+alias gfd='git rev-list -n 1 HEAD -- '
+
+#You can then checkout the deleted file using 
+#git checkout SHA^  -- path/to/file
+
 #TODO: Bring in the rest from too many different servers to think about ¯\_(ツ)_/¯
