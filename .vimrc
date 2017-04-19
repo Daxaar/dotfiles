@@ -1,4 +1,4 @@
-#https://github.com/tpope/vim-pathogen
+" https://github.com/tpope/vim-pathogen
 execute pathogen#infect()
 syntax on
 set ignorecase
