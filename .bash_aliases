@@ -14,7 +14,8 @@ alias gco='git checkout'
 alias grc='git rebase --continue'
 alias grhh='git reset head --hard'
 alias grhs='git reset head --soft'
-
+alias gpu='git push'
+alias gpl='git pull'
 #Get the sha for the commit a file was deleted in
 alias gfd='git rev-list -n 1 HEAD -- '
 #Checkout the deleted file using 
