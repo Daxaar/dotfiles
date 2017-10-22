@@ -21,4 +21,7 @@ alias gfd='git rev-list -n 1 HEAD -- '
 #Checkout the deleted file using 
 #git checkout SHA^  -- path/to/file
 
+alias sp2='ssh pi@pi2'
+alias sp3='ssh pi@pi3'
+
 #TODO: Bring in the rest from too many different servers to think about ¯\_(ツ)_/¯
