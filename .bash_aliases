@@ -24,4 +24,6 @@ alias gfd='git rev-list -n 1 HEAD -- '
 alias sp2='ssh pi@pi2'
 alias sp3='ssh pi@pi3'
 
+alias exp='explorer .'
+
 #TODO: Bring in the rest from too many different servers to think about ¯\_(ツ)_/¯
