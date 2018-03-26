@@ -16,6 +16,8 @@ alias grhh='git reset HEAD --hard'
 alias grhs='git reset HEAD --soft'
 alias gpu='git push'
 alias gpl='git pull'
+alias gcfd='git clean -fd'
+
 #Get the sha for the commit a file was deleted in
 alias gfd='git rev-list -n 1 HEAD -- '
 #Checkout the deleted file using 
