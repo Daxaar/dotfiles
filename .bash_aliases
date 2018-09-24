@@ -23,6 +23,9 @@ alias gfd='git rev-list -n 1 HEAD -- '
 #Checkout the deleted file using 
 #git checkout SHA^  -- path/to/file
 
+#local branches ordered by most recent commit
+alias gbd='git branch --sort=-committerdate'
+
 alias sp2='ssh pi@pi2'
 alias sp3='ssh pi@pi3'
 
