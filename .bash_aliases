@@ -19,6 +19,7 @@ alias gpl='git pull'
 alias gcfd='git clean -fd'
 alias gcm='git commit -m '
 alias gac='git add . && git commit -m '
+alias gbd='git branch --sort=-committerdate'
 
 #Get the sha for the commit a file was deleted in
 alias gfd='git rev-list -n 1 HEAD -- '
